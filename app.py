@@ -18,9 +18,7 @@ def predict():
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
 
-    output =prediction
-
-    return render_template('index1.html', prediction_text=' Diabetics value is {}'.format(output))
+    return render_template('index1.html', prediction_text=' Diabetics value is {}'.format(prediction))
 
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
