@@ -20,7 +20,7 @@ def predict():
 
     output =prediction
 
-    return render_template('index1.html', prediction_text=' Diabetics is $ {}'.format(output))
+    return render_template('index1.html', prediction_text=' Diabetics value is {}'.format(output))
 
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
