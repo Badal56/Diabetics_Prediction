@@ -57,7 +57,6 @@ dask==2.11.0
 decorator==4.4.1
 defusedxml==0.6.0
 diff-match-patch==20181111
-distributed==2.11.0
 docutils==0.16
 dtale==1.46.0
 entrypoints==0.3
